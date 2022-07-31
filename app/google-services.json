@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "15076734840",
+    "firebase_url": "https://thesisprototype-f744a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "thesisprototype-f744a",
+    "storage_bucket": "thesisprototype-f744a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15076734840:android:df55c94adf9c4eb551fa8d",
+        "android_client_info": {
+          "package_name": "com.cpe.infofarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15076734840-35g9dickstsern6mcfukueigkd42itl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzmWscd77SYBPF_DR0wdYc8qdeQ7rFhOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15076734840-35g9dickstsern6mcfukueigkd42itl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15076734840:android:f64a7269523d2ba051fa8d",
+        "android_client_info": {
+          "package_name": "com.cpe.thesisprototype"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15076734840-35g9dickstsern6mcfukueigkd42itl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzmWscd77SYBPF_DR0wdYc8qdeQ7rFhOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15076734840-35g9dickstsern6mcfukueigkd42itl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

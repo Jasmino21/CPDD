@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_nam1">Cabbage Pest and Disease Detector</string>
+    <string name="app_name">CPDD</string>
+    <string name="Hello">CPDD is here to help you identify cabbage pests and diseases!</string>
+    <string name="Hello_tagalog">Andito ang CPDD upang tulungan kayong pangalanan ang mga sakit at peste ng iyong tanim na gulay!</string>
+    <string name="control">Prevention &amp; Control</string>
+    <string name="control_tagalog">Paano Maiiwasan</string>
+    <string name="chemical">Chemical Control</string>
+    <string name="chemical_tagalog">Pesticides at Fungicides</string>
+    <!-- time strings.xml -->
+    <string name="time_id">10:30\ \AM</string>
+    <string name="inc">0</string>
+    <!-- location string -->
+    <string name="location_up">Location Updated at: \n</string>
+    <!-- baguio strings.xml -->
+    <string name="baguio">Tinoc</string>
+    <string name="offline">Offline</string>
+    <string name="main_weather_desc">Partly Sunny</string>
+    <!-- 18 deg strings.xml -->
+    <string name="c">18\u00B0C</string>
+    <!-- weather condition strings.xml -->
+    <string name="partly_sunny">Partly Sunny</string>
+    <!-- today strings.xml -->
+    <string name="today">Today</string>
+    <!-- morning time and temp strings.xml -->
+    <string name="six_am">6:OO AM</string>
+    <string name="twelve_pm">12:OO PM</string>
+    <string name="three_pm">3:OO PM</string>
+    <string name="check_veget">Check BAPTC Price List</string>
+    <!-- cameratxt.xml -->
+    <string name="click_camera">Launch Detector</string>
+    <string name="no_info">Information not Available</string>
+    <!-- detecting strings.xml -->
+    <string name="take_image">CAPTURE</string>
+    <string name="tagalog">TAGALOG</string>
+    <string name="english">ENGLISH</string>
+    <!-- see result strings.xml -->
+    <string name="load_image">UPLOAD</string>
+    <string name="landing">Cabbage Pest and Disease Detector is an app that provides
+    control management guide for insect pests and diseases commonly affecting
+    cabbages. It includes the functionality of automatic detection of pests and diseases
+        from images. Additional features include weather forecast and BAPTC price list.
+    </string>
+    <!-- remedies strings.xml -->
+    <string name="description">You can upload image from your files or directly take it using your camera. Make sure to make the subject
+        as close as possible. If there is a detection, the name and description will be provided.
+    </string>
+    <string name="description_tagalog">Maaari kang mag-upload ng larawan mula sa iyong mga file o direktang kunin ito gamit ang iyong camera. Hangga\'t maaari, ilapit ang kamera sa pinipikturan. Kung may detection, ibibigay ang pangalan at paglalarawan nito.
+    </string>
+    <string name="control_content">Pest control and prevention method will also be displayed.</string>
+    <string name="control_content_tagalog">Maipapakita rito ang mga maaaring gawin sa nasabing sakit o peste</string>
+    <string name="chemical_content">Pesticides and Fungicides will be recommended.</string>
+    <string name="chemical_content_tagalog">Dito mailalahad ang mga iminumungkahing pesticide at fungicide</string>
+    <string name="seemore">You can click on the image to SEE MORE!</string>
+    <string name="seemoreTagalog">PINDUTIN ANG LARAWAN PARA KUMPIRMAHIN KUNG TAMA!</string>
+    <!-- price strings.xml -->
+</resources>

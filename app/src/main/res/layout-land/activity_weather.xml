@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Weather"
+    android:background="@drawable/background"
+>
+
+
+    <View
+    android:id="@+id/view"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/e_15"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toTopOf="@id/view2"
+    />
+
+<View
+    android:id="@+id/view2"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/e_14"
+    app:layout_constraintTop_toBottomOf="@id/view"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/rLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:visibility="invisible"
+            />
+
+        <ImageView
+            android:id="@+id/main_temp_icn"
+            android:layout_width="140dp"
+            android:layout_height="136dp"
+            android:visibility="invisible"
+            />
+
+        <TextView
+            android:id="@+id/weather_description"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:visibility="invisible"
+            />
+
+        <TextView
+            android:id="@+id/main_temp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            />
+
+        <LinearLayout
+            android:id="@+id/linearInsideRel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/button_pest"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/morning"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:id="@+id/sixTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|start"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal|top"
+                    android:text="@string/six_am"
+                    android:textAppearance="@style/oo_am" />
+
+                <ImageView
+                    android:id="@+id/sixIcon"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:srcCompat="@drawable/partly_sunny" />
+
+                <TextView
+                    android:id="@+id/sixWeather"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal|top"
+                    android:text="@string/offline"
+                    android:textAppearance="@style/oo_am" />
+
+                <TextView
+                    android:id="@+id/sixRain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal|top"
+                    android:text="@string/offline"
+                    android:textAppearance="@style/oo_desc" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/morning"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:id="@+id/twelveTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|start"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal|top"
+                    android:text="@string/twelve_pm"
+                    android:textAppearance="@style/oo_am" />
+
+                <ImageView
+                    android:id="@+id/twelveIcon"
+                    android:layout_width="match_parent"
+                    android:layout_height="122dp"
+                    app:srcCompat="@drawable/partly_sunny" />
+
+                <TextView
+                    android:id="@+id/twelveWeather"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal|top"
+                    android:text="@string/offline"
+                    android:textAppearance="@style/oo_am" />
+
+                <TextView
+                    android:id="@+id/twelveRain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal|top"
+                    android:text="@string/offline"
+                    android:textAppearance="@style/oo_desc" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/morning"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:id="@+id/threeTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|start"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal|top"
+                    android:text="@string/three_pm"
+                    android:textAppearance="@style/oo_am" />
+
+                <ImageView
+                    android:id="@+id/threeIcon"
+                    android:layout_width="match_parent"
+                    android:layout_height="122dp"
+                    app:srcCompat="@drawable/partly_sunny" />
+
+                <TextView
+                    android:id="@+id/threeWeather"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal|top"
+                    android:text="@string/offline"
+                    android:textAppearance="@style/oo_am" />
+
+                <TextView
+                    android:id="@+id/threeRain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal|top"
+                    android:text="@string/offline"
+                    android:textAppearance="@style/oo_desc" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_price"
+            style="@style/txtSolidRounded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/check_veget" />
+
+        <Button
+            android:id="@+id/button_pest"
+            style="@style/txtSolidRounded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button_price"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/click_camera" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
